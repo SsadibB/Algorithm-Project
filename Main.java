@@ -57,6 +57,10 @@ class staff
             if (updateId.equals(s[i].sid)) {
                 System.out.print("Enter new name: ");
                 s[i].sname = input.nextLine();
+                System.out.print("designation (nurse/worker/security):-");
+        s[i].desg = input.nextLine();
+        System.out.print("salary:-");
+        s[i].salary = input.nextInt();
                 System.out.println("Staff information updated successfully.");
                 return;
             }
